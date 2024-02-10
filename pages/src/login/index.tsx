@@ -1,11 +1,8 @@
 
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { FaEnvelope, FaUser } from "react-icons/fa";
 import Head from "next/head";
-import Script from "next/script";
-import { Html } from "next/document";
-import { FaFacebookF, FaGoogle, FaLock, FaPhone, FaTwitter,FaLinkedin } from "react-icons/fa6";
+import { FaFacebookF, FaGoogle, FaLock, FaPhone, FaTwitter, FaLinkedin } from "react-icons/fa6";
 export default function Home() {
     const [state, setState] = useState({ userName: "", email: "", mobile: "", password: "", mobile1: "", password1: "" })
     useEffect(() => {
@@ -143,7 +140,6 @@ export default function Home() {
                     </div>
                 </div>
 
-                <script src="app.js"></script>
             </>
 
         </div>

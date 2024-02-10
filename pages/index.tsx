@@ -1,5 +1,4 @@
 import styles from '../styles/home.module.css'
-import logo from '../public/logo.png'
 import intro from '../public/assets/intro-img.svg'
 import objective from '../public/assets/about-extra-1.svg'
 import mission from '../public/assets/about-extra-2.svg'
@@ -133,7 +132,7 @@ export default function Home() {
               <ul className={styles.list_text}>
                 <li>The primary purpose of Ved InfoTech Computer Institute is to provide a learning environment to our students in which faculty, staff, and students can discover, examine critically, preserve and transmit the knowledge, wisdom, and values that will ensure the survival of future generation and improve the quality of life for all.</li>
                 <li>Our Main Mission is that we want to make an educated and technical country. We are running many literacy programs to encourage students to forget technical education in every field. We provide Job support to our student for experience in every technical Field.</li>
-                <li>"Your Success is OUR MOTO" Means If our students are successful in life, then we also in Our Mission. We are only taught we are also making the future bright and better.</li>
+                <li>Your Success is OUR MOTO Means If our students are successful in life, then we also in Our Mission. We are only taught we are also making the future bright and better.</li>
               </ul>
 
             </div>
@@ -395,7 +394,7 @@ export default function Home() {
             <p style={{ fontSize: 20, paddingInline: "100px", textAlign: "center" }}>Ved InfoTech computer Institute is the best Institute in Jaunpur South. It has established in 2009. It aims to give only the best knowledge and facility.</p>
             <div className={styles.responsive_grid1}>
               <div className={styles.thumbnail}>
-                <p>We teach all Computer Courses and We also provide Computer Teacher Training Program. We conduct Tally's professional courses here. We have all the courses from Tally's Basic to Advanced here. We have done various types of government computer training programs.</p>
+                <p>We teach all Computer Courses and We also provide Computer Teacher Training Program. We conduct Tally professional courses here. We have all the courses from Tally Basic to Advanced here. We have done various types of government computer training programs.</p>
                 <div className={styles.showSpaceAroundcol}>
                   <div ><HiNewspaper size={60} className={styles.icon1} /></div>
                   <div className={styles.showFlexRow} style={{ marginTop: 0, padding: 0, }} >
